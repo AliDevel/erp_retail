@@ -1,0 +1,22 @@
+{
+ "creation": "2023-03-23 02:41:17.108462",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{\"from_date\":\"2023-02-28\",\"to_date\":\"2023-03-23\"}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "\u0412\u0430\u043b\u043e\u0432\u0430\u044f \u043f\u0440\u0438\u0431\u044b\u043b",
+ "modified": "2023-03-23 02:41:17.172245",
+ "modified_by": "Administrator",
+ "module": "Selling",
+ "name": "\u0412\u0430\u043b\u043e\u0432\u0430\u044f \u043f\u0440\u0438\u0431\u044b\u043b",
+ "owner": "Administrator",
+ "report_field": "gross_profit",
+ "report_function": "Sum",
+ "report_name": "Sales 3",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

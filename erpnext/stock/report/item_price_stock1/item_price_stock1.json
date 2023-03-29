@@ -1,0 +1,62 @@
+{
+ "add_total_row": 0,
+ "columns": [
+  {
+   "fieldname": "price_list",
+   "fieldtype": "Data",
+   "label": "Price list",
+   "width": 0
+  }
+ ],
+ "creation": "2022-11-06 02:21:27.862443",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "price_list",
+   "fieldtype": "Data",
+   "label": "Price list",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2022-11-06 02:22:00.361381",
+ "modified_by": "Administrator",
+ "module": "Stock",
+ "name": "Item Price Stock1",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Item Price",
+ "report_name": "Item Price Stock1",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Item Manager"
+  },
+  {
+   "role": "Stock Manager"
+  },
+  {
+   "role": "Stock User"
+  },
+  {
+   "role": "Sales User"
+  },
+  {
+   "role": "Purchase User"
+  },
+  {
+   "role": "Maintenance User"
+  },
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Manufacturing User"
+  }
+ ]
+}

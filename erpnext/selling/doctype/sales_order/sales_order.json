@@ -195,18 +195,21 @@
   {
    "fieldname": "naming_series",
    "fieldtype": "Select",
+   "hidden": 1,
    "hide_days": 1,
    "hide_seconds": 1,
+   "in_list_view": 1,
    "label": "Series",
    "no_copy": 1,
    "oldfieldname": "naming_series",
    "oldfieldtype": "Select",
    "options": "SAL-ORD-.YYYY.-",
    "print_hide": 1,
-   "reqd": 1,
+   "report_hide": 1,
    "set_only_once": 1
   },
   {
+   "allow_in_quick_entry": 1,
    "bold": 1,
    "fieldname": "customer",
    "fieldtype": "Link",
@@ -338,6 +341,7 @@
    "fetch_from": "customer.tax_id",
    "fieldname": "tax_id",
    "fieldtype": "Data",
+   "hidden": 1,
    "hide_days": 1,
    "hide_seconds": 1,
    "label": "Tax Id",
@@ -705,11 +709,13 @@
   {
    "fieldname": "taxes_section",
    "fieldtype": "Section Break",
+   "hidden": 1,
    "hide_days": 1,
    "hide_seconds": 1,
    "label": "Taxes",
    "oldfieldtype": "Section Break",
-   "options": "fa fa-money"
+   "options": "fa fa-money",
+   "report_hide": 1
   },
   {
    "fieldname": "tax_category",
@@ -746,13 +752,15 @@
   {
    "fieldname": "taxes_and_charges",
    "fieldtype": "Link",
+   "hidden": 1,
    "hide_days": 1,
    "hide_seconds": 1,
    "label": "Sales Taxes and Charges Template",
    "oldfieldname": "charge",
    "oldfieldtype": "Link",
    "options": "Sales Taxes and Charges Template",
-   "print_hide": 1
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "taxes",
@@ -1629,7 +1637,7 @@
  "idx": 105,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-10-11 13:06:10.469796",
+ "modified": "2023-04-23 18:32:18.102812",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Sales Order",
@@ -1699,6 +1707,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "search_fields": "status,transaction_date,customer,customer_name, territory,order_type,company",
  "show_name_in_global_search": 1,
  "sort_field": "modified",

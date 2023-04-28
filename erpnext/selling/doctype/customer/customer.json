@@ -5,7 +5,7 @@
  "allow_rename": 1,
  "autoname": "naming_series:",
  "creation": "2013-06-11 14:26:44",
- "description": "Buyer of Goods and Services.",
+ "description": "Buyer of Goods and Services. asd",
  "doctype": "DocType",
  "document_type": "Setup",
  "engine": "InnoDB",
@@ -20,6 +20,7 @@
   "tax_category",
   "tax_withholding_category",
   "lead_name",
+  "customer_id",
   "opportunity_name",
   "image",
   "column_break0",
@@ -70,8 +71,7 @@
   "default_commission_rate",
   "sales_team_section",
   "sales_team",
-  "customer_pos_id",
-  "customer_id"
+  "customer_pos_id"
  ],
  "fields": [
   {
@@ -517,7 +517,7 @@
    "link_fieldname": "party"
   }
  ],
- "modified": "2022-10-31 22:34:11.866103",
+ "modified": "2023-04-01 21:20:36.562766",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Customer",
